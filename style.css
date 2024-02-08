@@ -15,7 +15,7 @@ body {
 .header {
     height: 72px;
     display: flex;
-    padding: 0 12%;
+    padding: 0 15%;
     justify-content: space-between;
     align-items: center;
 }
@@ -49,7 +49,7 @@ a {
 }
 
 .hero {
-    padding: 2.5% 12% 5% 12%;
+    padding: 2.5% 15% 5% 15%;
     background-color: #1F2937;
     display: flex;
     flex: 1;
@@ -85,7 +85,7 @@ a {
     background-color: #3882F6;
     padding: auto 0;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 5px;
     height: 2em;
     width: 8em;
 }
@@ -160,16 +160,46 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5% 12% 5% 12%;
+    padding: 7% 15% 7% 15%;
 }
 
 .bluecontainer {
     background-color: #3882F6;
     display: flex;
     justify-content: space-between;
-    height: 7em;
+    height: 8em;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 7px;
+    padding: 20px 6em;
+}
+
+.ad .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1px;
+}
+
+.adheader {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.adsubtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.adbutton {
+    border: 2px white solid;
+    border-radius: 5px;
+    align-self: center;
+    text-align: center;
+    padding: 0.5em 0 0.5em 0;
+    height:2.2em;
+    width: 8.5em;
 }
 
 .footer {
