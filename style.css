@@ -120,13 +120,24 @@ a {
 .images {
     display: flex;
     gap: 32px;
+    margin-bottom: 0.5em;
 }
 
 .images img {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
     display: block;
     width: 100%;
     height: auto;
 }
+
+.captions {
+    display: flex;
+    gap: 32px;
+    text-align: center;
+}
+
+
 .footer {
     height: 72px;
     display: flex;
