@@ -52,6 +52,7 @@ a {
     padding: 5% 15% 10% 15%;
     background-color: #1F2937;
     display: flex;
+    flex: 1;
     gap: 32px;
 }
 
@@ -135,6 +136,25 @@ a {
     display: flex;
     gap: 32px;
     text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10% 20% 10% 20%;
+}
+
+.quote1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.by {
+    text-align: end;
+    font-weight: bold;
 }
 
 
