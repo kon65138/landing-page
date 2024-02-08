@@ -15,7 +15,7 @@ body {
 .header {
     height: 72px;
     display: flex;
-    padding: 0 15%;
+    padding: 0 10%;
     justify-content: space-between;
     align-items: center;
 }
@@ -49,7 +49,7 @@ a {
 }
 
 .hero {
-    padding: 5% 15% 10% 15%;
+    padding: 2.5% 10% 5% 10%;
     background-color: #1F2937;
     display: flex;
     flex: 1;
@@ -59,14 +59,7 @@ a {
 .left {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 50%;
-}
-
-#heroimg {
-    display: block;
-    width: 100%;
-    height: auto;
 }
 
 .heromain {
@@ -97,17 +90,22 @@ a {
     width: 8em;
 }
 
-
 .right {
     display: flex;
     width: 50%;
+}
+
+#heroimg {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .randominfo {
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 5% 20% 10% 20%
+    padding: 2.5% 20% 5% 20%
 }
 
 .randominfo .title {
@@ -143,7 +141,7 @@ a {
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 10% 20% 10% 20%;
+    padding: 5% 20% 5% 20%;
 }
 
 .quote1 {
@@ -157,6 +155,9 @@ a {
     font-weight: bold;
 }
 
+.ad {
+    flex: 1;
+}
 
 .footer {
     height: 72px;
